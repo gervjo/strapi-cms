@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_types",
+  "info": {
+    "name": "page-type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
